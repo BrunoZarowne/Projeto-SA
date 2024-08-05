@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="mensagens.css" />
+    <title>Tela do usuário</title>
+  </head>
+  <body onload="boasVindas()">
+    <div class="parteDoMeio">
+      <div class="triangulo"></div>
+      <div id="boasvindasUsuario" class="boasVindas">
+        <p>Boas vindas(nomeUsuario)</p>
+      </div>
+        
+      <div class="contBarraLateral">
+        <div class="option">
+          <img src="imgPerfil.png" alt="icone de perfil" />
+          <a
+            href="dados-usuario.html"
+            >Conta</a
+          >
+        </div>
+        <div class="option">
+          <img src="imgMensagem.png" alt="icone de mensagens" />
+          <a href="mensagens.html"
+            >Mensagens</a
+          >
+        </div>
+        <div class="option">
+          <img src="imgLivro.png" alt="icone de um livro" />
+          <a href="obras.html">Obras</a>
+        </div>
+        <div class="option">
+          <img src="imgDoacoes.png" alt="icone de dinheiro" />
+          <a
+            href="doacoes.html"
+            >Doações</a
+          >
+        </div>
+        <div class="option">
+          <img src="imgSaida.png" alt="icone de porta aberta" />
+          <a
+            href="tela_obras.html"
+            >Sair</a
+          >
+        </div>
+      </div>
+      <div class="mensagens">
+        <h1>Mensagens recebidas</h1>
+        <div class="mensagensRecebidas">
+          <label>Nome</label>
+          <label>Data</label>
+          <label>Assunto</label>
+        </div>
+        <div class="mensagemUm">
+          <label>Joãozinho</label>
+          <label>24/06/2024</label>
+          <label>Compra dos direitos</label>
+        </div>
+    </div>
+    </div>
+
+    <div class="botaoVoltar">
+      <a href="tela_obras.html">
+        <p>Voltar</p>
+      </a>
+    </div>
+    <script src="crud_My_work.js"></script>
+  </body>
+</html>

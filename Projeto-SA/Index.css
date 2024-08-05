@@ -1,0 +1,320 @@
+
+/* tela de opção do usuario */
+
+body{background: rgb(94,34,112);
+    background: linear-gradient(90deg, rgba(94,34,112,1) 49%, rgba(233,191,245,1) 49%);
+
+
+
+}.icon_user{
+
+height:20% ;
+width: 20%;
+
+padding-top: 20%;
+}.mensagem_boas_vindas{
+color: white;
+font-size:300%;
+padding-bottom: 10%;
+padding-top: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+.container_icon_user_mensagem_boas_vindas{
+width:49%;
+height: fit-content;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}.container_icon_texto{
+
+width: 90%;
+align-items: center;
+justify-content: center;
+display: flex;
+flex-direction: column;
+
+
+
+
+}button{
+color: white;
+background-color: rgba(172, 102, 205, 1);
+border:rgba(172, 102, 205, 1) solid ;
+border-radius: 10px;
+width: 270px;
+height: 50px;
+font-size: 150%;
+
+}
+
+
+
+
+
+.container_button{
+
+width: 49%;
+ text-align:center;
+ justify-content: space-evenly;
+display: flex;
+height: 15vh;
+align-items: center;
+
+width: 100%;
+
+}.container_pai{
+
+display: flex;
+
+}.container_mensagem_espera{
+
+width: 49%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}.cor_fundo_mensagem_espera{
+
+background-color: white;
+border-radius: 10px;
+width: 80%;
+height: 50%;
+display: flex;
+justify-content: center;
+
+
+
+
+}
+
+
+.mensagem_espera{
+font-size: 50px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+/* css do modal de login\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+dialog::backdrop{
+    background: (000/.999);
+  }
+  
+  
+dialog
+  {border: none;
+  border-radius: 10px;
+  background-color:white;
+  width: 20%;
+  height: 50%;
+
+}
+
+
+
+
+
+.container_imagem-login-modal{
+background-color: rgba(193, 193, 193, 1);
+width: 150px;
+height: 150px;
+border-radius: 100%;
+display: flex;
+justify-content: center;
+
+
+
+}.buttomLogin{
+    width: 200px;
+    height:35px ;
+    border-radius: 10px;
+    margin-top: 40px;
+    background-color: rgba(88, 36, 103, 1);
+    color: white;
+    border:rgba(88, 36, 103, 1) ;
+    }
+
+
+
+
+
+
+input{
+    
+    
+    width:300px ;
+    height:30px ;
+    border-radius: 5px;
+    border: black solid 1px;
+    
+
+
+}
+    
+   
+
+
+
+
+.imagem-login-modal{
+    width: 60%; 
+height: 60%;
+padding-top: 25px;
+align-items: center;
+width: fit-content;
+text-align: center;
+
+
+}.p{
+display:flex ;
+flex-direction: column;
+align-items: center;
+
+
+}
+
+
+label{
+    margin-right: 70%;
+    font-size: large;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+
+}.fechaMOdalLogin{
+margin-left: 82%;
+background-color: rgba(88, 36, 103, 1);
+color: white;
+border:rgba(88, 36, 103, 1) ;
+border-radius: 15px;
+width: 19%;
+height: 5%;
+
+
+
+
+}
+   /*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////  */
+
+
+/*  csss do modal de cadastro//////////////////////////////////////////////////////////////////////// */
+
+.modal_Cadastro{
+    width: 20% ;
+    height: 55%;
+    border: white solid;
+    border-radius: 10px;
+    
+    }.w{
+    
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    }.imagem-login-modal{
+    
+        width: 60%; 
+        height: 60%;
+        padding-top: 25px;
+        align-items: center;
+        width: fit-content;
+        text-align: center;
+        
+    }input{
+    width:300px ;
+    height:30px ;
+    border-radius: 5px;
+    border: black solid 1px;
+    }
+    
+    input:hover{
+    outline: 0;
+    
+    }
+    
+    
+    
+    
+    
+    .buttonCadastro{
+    width: 200px;
+    height:35px ;
+    border-radius: 20px;
+    margin-top: 40px;
+    background-color: rgba(88, 36, 103, 1);
+    color: white;
+    border:rgba(88, 36, 103, 1) ;
+    }
+    
+    label{
+    margin-right: 70%;
+    font-size: large;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    
+    .label_data_nascimento{
+    margin-right:42% ;
+    font-size: large;
+    margin-left: 3%;
+    }
+    
+    
+    
+    .container_imagem-cadastro-modal{
+        background-color: rgba(193, 193, 193, 1);
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        display: flex;
+    justify-content: center;
+    }.inpt_data_nacimento{
+    
+    
+    
+    
+        width:200px ;
+        height:30px ;
+        border-radius: 5px;
+        border: black solid 1px;
+        margin-right: 27%;
+    
+    
+    
+    }dialog::backdrop{
+        background: (000/.999);
+      }
+      
+      .fechaMOdalCadastro{
+        margin-left: 82%;
+        background-color: rgba(88, 36, 103, 1);
+        color: white;
+        border:rgba(88, 36, 103, 1) ;
+        border-radius: 15px;
+        width: 19%;
+        height: 5%;
+        
+        
+        
+        
+        }
+           
+    
+    
+
+
+
+
+
+
+
+
+
+

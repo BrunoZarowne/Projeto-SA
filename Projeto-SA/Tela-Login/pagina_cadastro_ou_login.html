@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index</title>
+</head>
+<body>
+ <!-- tela de opção de cadastro ou login -->
+  <div class="container_pai">
+ 
+    <div class="container_icon_user_mensagem_boas_vindas">
+  
+  <div class="container_icon_texto">
+  
+      <img src="icon_user.png"  class="icon_user">
+
+   
+
+  
+      <p class="mensagem_boas_vindas">Bem vindo ao My Work<br>
+      Escolha uma das opções<br>
+      para continuar</p>
+    
+      <div class="container_button">
+
+        <button onclick=abrirModalLogin() id="button_open_modal_login" >login</button>
+      
+      <button id="button_open_modal" onclick="abrirModalCadastro()">cadastro</button>
+      
+      </div>
+      
+
+</div>
+</div>
+
+<div class="container_mensagem_espera">
+  <div class="cor_fundo_mensagem_espera"><p class="mensagem_espera">Falta pouco para voce ter a<br> experiencia completa <br>
+  do site basta apenas se <br> logar ou se cadastrar</p>
+</div>
+</div>
+</div>
+
+<!-- //////////////////////////////////////////////////////////////////// -->
+
+<!-- modal de login -->
+
+<dialog id="modal_login" class="modal_login">
+   
+
+    <button id="fechaModal" onclick="fechamodalLogin()" class="fechaMOdalLogin">X</button>
+    
+    <div class="p">
+        
+
+        <div class="container_imagem-login-modal">
+<img src="🦆 icon _person_.png" alt="" class="imagem-login-modal">
+
+</div class="p">
+
+
+<label >email</label>
+<input>
+
+<label >senha</label>
+<input>
+
+
+ <button class="buttomLogin">Logar</button><br>
+
+</div>
+
+
+
+</dialog> 
+<!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
+
+<!-- modal de cadastro -->
+
+
+
+
+    <dialog id="modal_Cadastro" class="modal_Cadastro">
+        <button id="fechaModalCadastro" onclick="fechamodalCadastrO()" class="fechaMOdalCadastro">X</button>
+        
+        <div class="w">
+     
+            <div class="container_imagem-cadastro-modal">
+              <img src="🦆 icon _person_.png" class="imagem-login-modal">
+
+        </div>
+
+
+        <label>nome</label>
+        <input id="nomeCadastro">
+        <label >email</label>
+        <input id="emailCadastro" type="email">
+        <label >senha</label>
+        <input id="senhaCadastro">
+        <label class="label_data_nascimento">data de nascimento</label>
+        <input id="dataNascimentoUsuario" type="date" class="inpt_data_nacimento">
+   
+     <button class="buttonCadastro">Cadastrar</button><br>
+    
+</div>
+
+
+
+
+<dialog id="modal_Cadastro" class="modal_Cadastro">
+   
+    
+  
+
+
+
+
+
+<link rel="stylesheet" href="Index.css">
+<script src="crud_My_work.js"></script>
+
+
+</body>
+</html>

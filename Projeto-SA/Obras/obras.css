@@ -1,0 +1,270 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(221, 170, 235, 1);
+}
+
+.botaoVoltar {
+    border: 1px solid black;
+    border-bottom-right-radius: 15px;
+    width: 7%;
+    height: 60px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(88, 36, 103, 1);
+    color: white;
+    font-size: 22px;
+}
+
+.boasVindas {
+    height: 168px;
+    width: 100%;
+    background-color: rgba(172, 102, 205, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+
+.boasVindas p {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+}
+
+.triangulo {
+    width: 15%;
+    height: 14%;
+    position: absolute;
+    top: 85px;
+    left: 200px;
+
+    img {
+        width: 47%;
+        height: 238px;
+    }
+}
+
+.contBarraLateral {
+    padding: 0 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-height: 767px;
+    max-width: 128px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: rgba(162, 118, 230, 1);
+}
+
+.option {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+
+    img {
+        width: 28px;
+        height: 28px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        transition: all .2s ease-in-out;
+
+        &:hover {
+            color: white;
+        }
+    }
+}
+
+.parteDoMeio {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    max-width: 1200px;
+    width: 100%;
+    height: 767px;
+    background-color: white;
+}
+.obrasUsuario{
+    border: 3px black solid;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: none;
+    display: flex;
+    justify-content: space-between;
+    width: 950px;
+    height: 499px;
+    position: relative;
+    left: 85px;
+    top: 0px;
+    padding: 10px;
+}
+.obraUm{
+    border: 3px black solid;
+    border-radius: 5%;
+    width: 20%;
+    height: 58%;
+    margin-top: 10px;
+    background-color: rgba(241, 227, 255, 1);
+    
+    img{
+        position: relative;
+        width: 95%;
+        top: 1.5%;
+        left: 2.5%;
+    }
+    p{
+        position: absolute;
+        top: 51.5%;
+        font-size: 20px;
+    }
+}
+.icnEstrelaUm{
+    p{
+        width: fit-content;
+        position: relative;
+        bottom: 45px;
+        left: 78%;
+    }
+    img{
+        width: 25px;
+        position: relative;
+        top: 42%;
+        left: 63%;
+    }
+}
+.obraDois{
+    border: 3px black solid;
+    border-radius: 5%;
+    width: 20%;
+    height: 58%;
+    margin-top: 10px;
+    background-color: rgba(241, 227, 255, 1);
+    
+    img{
+        position: relative;
+        width: 95%;
+        top: 1.5%;
+        left: 2.5%;
+    }
+    p{
+        position: absolute;
+        top: 51.5%;
+        font-size: 20px;
+    }
+}
+.icnEstrelaDois{
+    p{
+        width: fit-content;
+        position: relative;
+        bottom: 45px;
+        left: 78%;
+    }
+    img{
+        width: 25px;
+        position: relative;
+        top: 42%;
+        left: 63%;
+    }
+}
+.obraTres{
+    border: 3px black solid;
+    border-radius: 5%;
+    width: 20%;
+    height: 58%;
+    margin-top: 10px;
+    background-color: rgba(241, 227, 255, 1);
+    
+    img{
+        position: relative;
+        width: 95%;
+        top: 1.5%;
+        left: 2.5%;
+    }
+    p{
+        position: absolute;
+        top: 51.5%;
+        font-size: 20px;
+    }
+}
+.icnEstrelaTres{
+    p{
+        width: fit-content;
+        position: relative;
+        bottom: 45px;
+        left: 78%;
+    }
+    img{
+        width: 25px;
+        position: relative;
+        top: 42%;
+        left: 63%;
+    }
+}
+.obraQuatro{
+    border: 3px black solid;
+    border-radius: 5%;
+    width: 20%;
+    height: 58%;
+    margin-top: 10px;
+    background-color: rgba(241, 227, 255, 1);
+    
+    img{
+        position: relative;
+        width: 95%;
+        top: 1.5%;
+        left: 2.5%;
+    }
+    p{
+        position: absolute;
+        top: 51.5%;
+        font-size: 20px;
+    }
+}
+.icnEstrelaQuatro{
+    p{
+        width: fit-content;
+        position: relative;
+        bottom: 45px;
+        left: 78%;
+    }
+    img{
+        width: 25px;
+        position: relative;
+        top: 42%;
+        left: 63%;
+    }
+}
+.triangulo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 21;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    border-top: 84px solid transparent;
+    border-left: 84px solid transparent;
+    border-right: 84px solid #582467;
+    border-bottom: 84px solid #582467;
+    transform: rotate(90deg);
+}
+
